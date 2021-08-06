@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "description": "backend",
+  "engines": {
+    "node": ">=14.17.4",
+    "npm": ">=6.14.14"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "fmt": "deno fmt ./src",
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "kruzus",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
